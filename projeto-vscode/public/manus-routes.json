@@ -1,0 +1,9 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home — Kysana" },
+    { "path": "/produtos", "title": "Produtos — Kysana" },
+    { "path": "/identidade-visual", "title": "Identidade visual — Kysana" },
+    { "path": "/fale-conosco", "title": "Fale conosco — Kysana" },
+    { "path": "/quem-somos", "title": "Quem somos — Kysana" }
+  ]
+}

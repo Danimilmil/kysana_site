@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Kysana — histórias novas para quando e onde quiser. Experiências de leitura mais acessíveis, humanas e possíveis." />
+    <meta name="theme-color" content="#159ed1" />
+    <title>Kysana — histórias novas para quando e onde quiser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo principal</a>
+
+    <header class="site-header">
+      <div class="shell nav-wrap">
+        <a class="brand" href="/" data-route aria-label="Kysana, ir para a Home">
+          <img src="/assets/kysana-logo.png" alt="Logo Kysana: um livro aberto azul com a palavra Kysana" />
+          <span class="brand-name">KYSANA</span>
+        </a>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
+          <span class="sr-only">Abrir menu</span>
+          <span></span><span></span>
+        </button>
+        <nav id="primary-nav" class="primary-nav" aria-label="Navegação principal">
+          <a href="/" data-route data-nav="home">Home</a>
+          <a href="/produtos" data-route data-nav="produtos">Produtos</a>
+          <a href="/identidade-visual" data-route data-nav="identidade">Identidade visual</a>
+          <a href="/quem-somos" data-route data-nav="quem">Quem somos</a>
+          <a class="nav-cta" href="/fale-conosco" data-route data-nav="contato">Fale conosco <span aria-hidden="true">↗</span></a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" tabindex="-1"></main>
+
+    <footer class="site-footer">
+      <div class="shell footer-grid">
+        <div>
+          <a class="footer-brand" href="/" data-route>KYSANA</a>
+          <p class="footer-note">Histórias novas para quando e onde quiser.</p>
+        </div>
+        <div class="footer-links">
+          <p class="eyebrow">Explorar</p>
+          <a href="/produtos" data-route>Produtos</a>
+          <a href="/identidade-visual" data-route>Identidade visual</a>
+          <a href="/quem-somos" data-route>Quem somos</a>
+        </div>
+        <div class="footer-links">
+          <p class="eyebrow">Conversar</p>
+          <a href="/fale-conosco" data-route>Fale conosco</a>
+          <a href="mailto:contato@kysana.com.br">contato@kysana.com.br</a>
+          <a href="https://wa.me/?text=Ol%C3%A1%2C%20Kysana!" target="_blank" rel="noreferrer">WhatsApp <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="shell footer-bottom"><span>© <span id="current-year"></span> Kysana</span><span>Acessibilidade é um direito.</span></div>
+    </footer>
+
+    <script src="/script.js" defer></script>
+  </body>
+</html>
